@@ -13,7 +13,6 @@
                                                     <input name="startStepPlanning" type="text" class="form-control date"
                                                            placeholder="Начало" 
                                                            data-mask="00.00.0000"
-                                                           value="<?= $_SESSION['formGridCon']['nameDevice']; ?>"
                                                            required autofocus>
                                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                 </div>
@@ -25,8 +24,7 @@
                                                     <input name="stopStepPlanning" type="text" class="form-control date" 
                                                            placeholder="Окончание" 
                                                            data-mask="00.00.0000"
-                                                           value="<?= $_SESSION['formGridCon']['nameDevice']; ?>"
-                                                           required autofocus>
+                                                           required>
                                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                 </div>
                                             </div>
@@ -45,8 +43,7 @@
                                                     <input name="startStepWorking" type="text" class="form-control date"
                                                            placeholder="Начало" 
                                                            data-mask="00.00.0000"
-                                                           value="<?= $_SESSION['formGridCon']['nameDevice']; ?>"
-                                                           required autofocus>
+                                                           required>
                                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                 </div>
                                             </div>
@@ -57,8 +54,7 @@
                                                     <input name="stopStepWorking" type="text" class="form-control date" 
                                                            placeholder="Окончание" 
                                                            data-mask="00.00.0000"
-                                                           value="<?= $_SESSION['formGridCon']['nameDevice']; ?>"
-                                                           required autofocus>
+                                                           required>
                                                     <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                 </div>
                                             </div>
