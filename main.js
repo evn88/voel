@@ -1,4 +1,4 @@
-
+test
         $(document).ready(function () {
             //получаем массив с идентификаторами DCID_OBJID_DEVID_JOINID
             var obj = jQuery.parseJSON('<?php echo $json; ?>');
